@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Classroom Logout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+    }
+    
+    .container {
+      max-width: 300px;
+      background-color: rgb(228, 215, 215);
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .form-group input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 3px;
+      border: none;
+      background-color: #4285F4;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    .form-group input[type="submit"]:hover {
+      background-color: #3367D6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Classroom Logout</h2>
+    <form id="logoutForm">
+      <div class="form-group">
+        <input type="submit" value="Logout">
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("logoutForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      
+      // Perform logout action here
+      // For demonstration purposes, we will simply redirect to the login page
+      
+      window.location.href = "loginf.htm";
+    });
+  </script>
+</body>
+</html>

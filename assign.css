@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+    
+  header {
+    background-color: #4285F4;
+    /* padding: 10px; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .assignment-details {
+    margin-bottom: 30px;
+    background-color: rgb(228, 215, 215);
+    border: 1px solid #ae00ff;
+    padding: 20px;
+  }
+  
+  .due-date {
+    font-weight: bold;
+  }
+  
+  .questions {
+    justify-content: right;
+    margin-bottom: 30px;
+    
+  }
+  
+  .question-item {
+    margin-bottom: 20px;
+
+  }
+  
+  .question-item h3 {
+    margin-top: 0;
+  }
+  
+  .answer-input {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #4285F4;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #f3f3f3;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+
+}

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+h2{
+  color: aliceblue;
+}
+  header {
+    background-color: #4285F4;
+    padding: 0cm;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .announcement-item, .assignment-item, .grade-item {
+    border: 1px solid #ae00ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .announcement h2, .assignments h2, .grades h2 {
+    margin-top: 0;
+  }
+  
+  .assignment-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: white;
+    text-decoration: none;
+  }
